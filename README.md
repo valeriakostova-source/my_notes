@@ -1,7 +1,4 @@
-# my_notes
-Secure Notes application built with Java &amp; Spring Boot featuring authentication, note management and admin role authorization.
-
-# Secure Notes 🔐
+## My Notes 🔐
 
 Secure Notes is a secure note management application built with Java and Spring Boot.
 
