@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrera användare</title>
+</head>
+<body>
+    <h1>Registrera användare</h1>
+    <p th:if="${error}" th:text ="@{error}"></p>
+    <form method="post" action="/register">
+        <div>
+            <label for="username"> Användarnamn</label>
+            <input type="text" id="username">
+        </div>
+        <div>
+            <label for="password">Lösenord</label>
+            <input type="password" id="password" name="password">
+        </div>
+       <button type="submit">Registrera</button>
+
+
+    </form>
+
+</body>
+</html>

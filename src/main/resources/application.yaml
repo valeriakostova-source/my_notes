@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: notes
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/my_notes
+    username: root
+    password: <DittLösenord>
+
+
+  #autoupdate database
+  jpa:
+    hibernate.ddl-auto: update
+    show-sql: true
+
+  thymeleaf:
+    cache: false
+
+
+
