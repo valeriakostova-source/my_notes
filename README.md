@@ -173,4 +173,4 @@ This project was built to practice:
 ---
 
 ## Author
-Valeria ...
+Valeria Kostova
